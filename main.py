@@ -24,7 +24,7 @@ def add_grade():
             else:
                 print("Grade must be between 0 and 100.")
         except ValueError:
-            print("Invalid input. Please enter a number.")
+            print("Invalid input. please enter a number.")
 
 def show_report():
     if not students:
